@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widzth=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/pattern.css" rel="stylesheet">
+
+<style>
+
+
+  .row {
+      display: flex;
+
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.row{   display: flex;
+
+    margin-left: 5%;
+    margin-right: 5%;}
+
+
+  }
+
+
+  .row__cell {
+      padding-left: 8px;
+      padding-right: 8px;
+  }
+
+  /* Cell with given width. Replace 25% with whatever you want */
+  .row__cell--1/4 {
+      flex: 0 0 25%;
+  }
+
+  .row__cell--fill {
+      flex: 1;
+  }
+
+  .avatar {
+      /* Rounded border */
+      border-radius: 50%;
+      height: 256px;
+      width: 256px;
+      filter: drop-shadow(5px 5px .5rem black);
+  }
+
+  .avatar__image {
+      /* Rounded border */
+      border-radius: 50%;
+      padding-top:10px;
+      /* Take full size */
+      height: 100%;
+      width: 110%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+
+  .bg-image {
+    
+    filter:blur(8px);
+    height:100%;
+  }
+
+
+  #intro {
+    text-align:center;
+  }
+
+
+    body {
+      margin:5px;
+      justify-content: center;
+      align-content: center;
+      font-family: 'Varela Round', sans-serif;
+      background-image: 
+
+    }
+
+    p, li {
+      font-family: "Open Sans"
+    }
+  </style>
+  </head>
+  
+  <body>
+  
+    <div class="flex-container">
+      <div class="avatar">
+    <!-- Avatar image -->
+    <img class="avatar__image" src="https://i.imgur.com/8mEeuIs.jpg" />
+  </div>
+
+
+
+  <div class = "row" id="hello">
+      <h1>Hello.</h1>
+  </div>
+
+  <div class = "row" id="intro">
+    <h2>Welcome to my page about me.</h2>
+  </div>
+<div class="row row__cell" id="intro">
+    <p>I’m a 30-something dad with a restless mind. I’ve been doing tech support for ten years now, and am looking to expand my career path.  I'm currently studying cybersecurity and surrounding topics to get my foot eventually in the door of Cybersecurity's vast and quickly-growing realm of opportunities.<p>
+
+</div>
+
+<div class="row row__cell">
+
+  </div>
+ <script src="https://tryhackme.com/badge/479777"></script>
+  <a href = "https://github.com/FAntsyPants">My GitHub</a>
+  <a href = "mailto: chase@omg.lol">Contact me!</a>
+  <a href="https://www.linkedin.com/in/hgmiv926">My LinkedIn</a>
+  <a href = "https://www.instagram.com/_fantsypants_"> My 3D Art Instagram </a>
+  </div>
+  </body>
+   
+</div>
+<div class="row row__cell">
+     <ul><h3>Some things about me:</h3>
+
+       <li> I've been performing the role of AppleCare Advisor for nine years, the most recent five of them being in a Senior Advisor role. </li>
+
+       <li> A troubleshooting mindset and a desire to dive deeper in to the puzzle. </li>
+
+       <li>Professional and personable nature along with a passion for technology provides the best of both worlds when interacting with the consumer.</li>
+
+      <li> A passion for Open Source Intelligence and cybersecurity, and helping consumers protect their information, identities, and devices. </li>
+
+    </ul>
+    </div>
+
+    <div class = "row row__cell">
+
+    <ul> <h4>Skills</h4>
+      <li> Excellent written and verbal communication skills, stemming from a background in retail and customer support</li>
+      <li> Expert at MacOS and iOS operating systems </li>
+      <li> Proficient in Windows and Linux (Ubuntu and Debian operating systems and their command-line interfaces)</li>
+      <li> Experience in networking, wireless, and Web technologies </li>
+      <li> Enough HTML, CSS and Javascript knowledge to make this homepage </li>
+      <li> Actively studying material to take and pass the CompTIA SY0-601 Security+ exam </li>
+      <li> Python 3</i>
+
+      <h4>I also dabble in:</h4>
+    <li> 3D Art with Blender 3D 2.8 and later </li>
+    <li> Graphic design and photo manipulation/post-proccessing with Adobe Photoshop, Illustrator</li>
+    <li> Non-linear video editing with Adobe Premiere </li>
+    
+    
+
+  </ul>
+
+
+
+</html>
